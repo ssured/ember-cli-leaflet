@@ -8,7 +8,7 @@ define('dummy/app', ['exports', 'ember', 'ember/resolver', 'ember/load-initializ
 
   Ember['default'].MODEL_FACTORY_INJECTIONS = true;
 
-  L.Icon.Default.imagePath = "/assets/images";
+  L.Icon.Default.imagePath = "/ember-cli-leaflet/assets/images";
 
   var App = Ember['default'].Application.extend({
     modulePrefix: config['default'].modulePrefix,
@@ -903,8 +903,8 @@ define('dummy/tests/app.jshint', function () {
   'use strict';
 
   module('JSHint - .');
-  test('app.js should pass jshint', function() { 
-    ok(false, 'app.js should pass jshint.\napp.js: line 8, col 1, \'L\' is not defined.\n\n1 error'); 
+  test('app.js should pass jshint', function() {
+    ok(false, 'app.js should pass jshint.\napp.js: line 8, col 1, \'L\' is not defined.\n\n1 error');
   });
 
 });
@@ -913,8 +913,8 @@ define('dummy/tests/controllers/application.jshint', function () {
   'use strict';
 
   module('JSHint - controllers');
-  test('controllers/application.js should pass jshint', function() { 
-    ok(true, 'controllers/application.js should pass jshint.'); 
+  test('controllers/application.js should pass jshint', function() {
+    ok(true, 'controllers/application.js should pass jshint.');
   });
 
 });
@@ -923,8 +923,8 @@ define('dummy/tests/controllers/position.jshint', function () {
   'use strict';
 
   module('JSHint - controllers');
-  test('controllers/position.js should pass jshint', function() { 
-    ok(true, 'controllers/position.js should pass jshint.'); 
+  test('controllers/position.js should pass jshint', function() {
+    ok(true, 'controllers/position.js should pass jshint.');
   });
 
 });
@@ -947,8 +947,8 @@ define('dummy/tests/helpers/resolver.jshint', function () {
   'use strict';
 
   module('JSHint - helpers');
-  test('helpers/resolver.js should pass jshint', function() { 
-    ok(true, 'helpers/resolver.js should pass jshint.'); 
+  test('helpers/resolver.js should pass jshint', function() {
+    ok(true, 'helpers/resolver.js should pass jshint.');
   });
 
 });
@@ -980,8 +980,8 @@ define('dummy/tests/helpers/start-app.jshint', function () {
   'use strict';
 
   module('JSHint - helpers');
-  test('helpers/start-app.js should pass jshint', function() { 
-    ok(true, 'helpers/start-app.js should pass jshint.'); 
+  test('helpers/start-app.js should pass jshint', function() {
+    ok(true, 'helpers/start-app.js should pass jshint.');
   });
 
 });
@@ -990,8 +990,8 @@ define('dummy/tests/router.jshint', function () {
   'use strict';
 
   module('JSHint - .');
-  test('router.js should pass jshint', function() { 
-    ok(true, 'router.js should pass jshint.'); 
+  test('router.js should pass jshint', function() {
+    ok(true, 'router.js should pass jshint.');
   });
 
 });
@@ -1000,8 +1000,8 @@ define('dummy/tests/routes/application.jshint', function () {
   'use strict';
 
   module('JSHint - routes');
-  test('routes/application.js should pass jshint', function() { 
-    ok(true, 'routes/application.js should pass jshint.'); 
+  test('routes/application.js should pass jshint', function() {
+    ok(true, 'routes/application.js should pass jshint.');
   });
 
 });
@@ -1010,8 +1010,8 @@ define('dummy/tests/routes/position.jshint', function () {
   'use strict';
 
   module('JSHint - routes');
-  test('routes/position.js should pass jshint', function() { 
-    ok(true, 'routes/position.js should pass jshint.'); 
+  test('routes/position.js should pass jshint', function() {
+    ok(true, 'routes/position.js should pass jshint.');
   });
 
 });
@@ -1027,8 +1027,8 @@ define('dummy/tests/test-helper.jshint', function () {
   'use strict';
 
   module('JSHint - .');
-  test('test-helper.js should pass jshint', function() { 
-    ok(true, 'test-helper.js should pass jshint.'); 
+  test('test-helper.js should pass jshint', function() {
+    ok(true, 'test-helper.js should pass jshint.');
   });
 
 });
@@ -1037,8 +1037,8 @@ define('dummy/tests/utils/geohash.jshint', function () {
   'use strict';
 
   module('JSHint - utils');
-  test('utils/geohash.js should pass jshint', function() { 
-    ok(false, 'utils/geohash.js should pass jshint.\nutils/geohash.js: line 300, col 5, Bad line breaking before \'+\'.\nutils/geohash.js: line 302, col 5, Bad line breaking before \'+\'.\n\n2 errors'); 
+  test('utils/geohash.js should pass jshint', function() {
+    ok(false, 'utils/geohash.js should pass jshint.\nutils/geohash.js: line 300, col 5, Bad line breaking before \'+\'.\nutils/geohash.js: line 302, col 5, Bad line breaking before \'+\'.\n\n2 errors');
   });
 
 });
