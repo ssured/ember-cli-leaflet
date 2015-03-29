@@ -5,6 +5,8 @@ import config from './config/environment';
 
 Ember.MODEL_FACTORY_INJECTIONS = true;
 
+L.Icon.Default.imagePath = '/assets/images';
+
 var App = Ember.Application.extend({
   modulePrefix: config.modulePrefix,
   podModulePrefix: config.podModulePrefix,

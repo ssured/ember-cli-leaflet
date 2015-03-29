@@ -18,4 +18,8 @@ var app = new EmberAddon();
 // please specify an object with the list of modules as keys
 // along with the exports of each module as its value.
 
+// map stuff
+app.import('bower_components/leaflet/dist/leaflet-src.js');
+app.import('bower_components/leaflet/dist/leaflet.css');
+
 module.exports = app.toTree();

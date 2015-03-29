@@ -1,0 +1,14 @@
+{{#leaf-control position="topright"}}
+  Now showing "position" route, inside the application template
+  <pre>{{bBoxString}}</pre>
+{{/leaf-control}}
+
+{{leaf-rectangle bounds=model color="red"}}
+
+{{leaf-marker layerEvents="click" layerClick="markerClick" location=center}}
+
+{{#if showPopup}}
+  {{#leaf-popup latlng=center}}
+    Auto updating property {{seconds}}
+  {{/leaf-popup}}
+{{/if}}

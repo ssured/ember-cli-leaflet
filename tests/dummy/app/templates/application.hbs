@@ -1,3 +1,11 @@
-<h2 id="title">Welcome to Ember.js</h2>
+<div class="force-fullscreen">
+  {{#leaf-map mapEvents="click moveend" mapClick="mapClick" mapMoveend="mapMoveend"}}
+    {{#leaf-control}}
+      <h2 id="title">Center: {{latlng}}@{{zoom}}</h2>
+    {{/leaf-control}}
 
-{{outlet}}
+    {{leaf-tile-mapbox startLatlng=latlng startZoom=zoom}}
+
+    {{outlet}}
+  {{/leaf-map}}
+</div>
