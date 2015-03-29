@@ -508,7 +508,7 @@ define('dummy/router', ['exports', 'ember', 'dummy/config/environment'], functio
   'use strict';
 
   var Router = Ember['default'].Router.extend({
-    location: config['default'].locationType
+    location: 'hash'
   });
 
   Router.map(function () {
